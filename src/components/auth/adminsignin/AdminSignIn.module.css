@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_div {
+  height: 100vh;
+  width: 100vw;
+  --bs-gutter-x: 0px;
+}
+.sub_div {
+  height: 80vh;
+}
+
+.heading {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.input_div {
+  min-height: 110px !important;
+}
+
+.login_div {
+  height: 80vh !important;
+  margin-top: 70px;
+  background-color: #b3d5f9;
+  display: grid;
+}
+
+.image {
+  height: 70px;
+  width: 70px;
+}
+
+.logo {
+  font-size: 30px;
+  margin-top: 15px;
+}
+.content_div {
+  background-color: #c2efee;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.pass_div {
+  border: 1px solid rgb(159, 157, 157);
+  border-radius: 8px;
+  background: white;
+}
+.pass_div:hover {
+  border: 4px solid rgb(149, 190, 248);
+}
+.error {
+  font-size: 1rem !important;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  border: 1px solid #e0e3e9;
+  padding: 0 10px;
+  padding-left: 30px;
+  outline: 0;
+  font-size: 13px;
+}
+input[type="password"] {
+  width: 100%;
+
+  border: 1px solid #e0e3e9;
+  padding: 0 10px;
+  padding-left: 30px;
+  padding-right: 27px;
+  outline: none;
+  border: none !important;
+}
+input .pass_div .fa-eye-slash {
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 18px !important;
+}
+input .pass_div .fa-eye {
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 18px !important;
+}
+.type_password {
+  border: 1px solid red !important;
+}
+
+.signup_button:hover {
+  background-color: #88bef8 !important;
+}
+
+.loader {
+  margin-left: 680px !important;
+  margin-top: 20px;
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 50px;
+  }
+
+  .login_div {
+    height: 90vh !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .heading {
+    font-size: 50px;
+  }
+  .content_div {
+    margin-top: 0px;
+  }
+  .content_div img {
+    width: 75vw;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .heading {
+    font-size: 50px;
+  }
+  .login_div {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .heading {
+    font-size: 40px !important;
+  }
+}

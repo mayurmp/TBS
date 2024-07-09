@@ -1,0 +1,103 @@
+
+/* .tab_nav{
+    background-color: #a0a79c;
+    color: white;
+} */
+.TabPanel_box__dwO-B {
+    /* height: px; */
+    width: 100%;
+    border: 1px solid black;
+    margin: 50px 0px 0px 15%;
+    /* background-color: #a0a79c; */
+}
+.box{
+    height: 700px; 
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 100px 0px 0px 10%;
+    box-shadow: 0 40px 32px rgba(191, 210, 224, 1);
+    /* background-color: #a0a79c; */
+}
+.tab_container{
+    height: 530px;
+    width: 90%;
+    /* box-shadow: 1px 1px 1px 1px black; */
+    /* border: 1px solid black; */
+    margin: 0px 0px 0px 70px;
+    /* background-color: #f7f7f7; */
+    color: black;
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  } 
+  
+  /* Track */
+   ::-webkit-scrollbar-track {
+    background: #131118;
+  } 
+  
+  /* Handle */
+   ::-webkit-scrollbar-thumb {
+    background: #888;
+  } 
+  
+  /* Handle on hover */
+   ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.container_row_1{
+    height: 50px;
+    width: 95%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: 5px 0px 0px 20px;
+    /* border-radius: 5px;background-color: #1e1b24; */
+}
+.srno{
+    height: 50px;
+    width: 20%;
+    /* border: 1px solid red; */
+}
+.ticket_type{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+.AddTicketType_ticket_form__1Edff h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 331px;
+}
+.aprover{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+.label{
+    height: 30px;
+    /* width: 90%; */
+    /* border: 1px solid black; */
+    font-size: 20px ;
+    margin: 10px 0px 0px 20% ;
+}
+.label2{
+    height: 30px;
+    margin: 0px 0px 0px 0px;
+    font-size: 10px;
+}
+.label_p{
+    font-size: 18px;
+}
+.close{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 20px 0px 0px 45%;
+}
+
+

@@ -1,0 +1,84 @@
+
+/* .tab_nav{
+    background-color: #a0a79c;
+    color: white;
+} */
+.box_1{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 200px 0px 0px 50px;
+    /* background-color: #cbdef3; */
+    box-shadow: 0 40px 32px rgba(191, 210, 224, 1);
+}
+/* .TabPanel_box__dwO-B {
+    height: px;
+    width: 90%;
+    border: 1px solid black;
+    margin: 50px 0px 0px 15%;
+    background-color: #a0a79c;
+} */
+/* .box{
+    height: 650px; 
+    width: 95%;
+    border: 1px solid black;
+    margin: 150px 0px 0px 15%;
+    box-shadow: 0 40px 32px rgba(191, 210, 224, 1);
+    background-color: #a0a79c;
+} */
+.tab_container{
+    height: 530px;
+    width: 80%;
+    /* box-shadow: 1px 1px 1px 1px black; */
+    /* border: 1px solid black; */
+    margin: 0px 0px 0px 112px;
+    background-color: #f7f7f7;
+    color: black;
+}
+.container_row_1{
+    height: 50px;
+    width: 95%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: 5px 0px 0px 20px;
+    /* border-radius: 5px;background-color: #1e1b24; */
+}
+.srno{
+    height: 50px;
+    width: 20%;
+    /* border: 1px solid red; */
+}
+.ticket_type{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+.AddTicketType_ticket_form__1Edff h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 331px;
+}
+.aprover{
+    height: 50px;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+.label{
+    height: 30px;
+    /* width: 90%; */
+    /* border: 1px solid black; */
+    font-size: 20px ;
+    margin: 10px 0px 0px 20% ;
+}
+.label2{
+    height: 30px;
+    margin: 0px 0px 0px 0px;
+    font-size: 10px;
+}
+.label_p{
+    font-size: 18px;
+}
+
+

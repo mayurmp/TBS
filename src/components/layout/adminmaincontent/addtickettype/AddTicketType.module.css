@@ -1,0 +1,78 @@
+.main_container{
+    text-decoration: none;
+    height: 500px;
+}
+.add_ticket_btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ticket_form {
+    width: 750px;
+    margin: 80px 0px 0px 150px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+  }
+  
+  .ticket_form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .ticket_form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .ticket_form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .ticket_form input[type='text'] {
+    width: 95%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .ticket_form input:hover {
+     box-shadow: 0px 0px 0px 1px black;
+  }
+  .ticket_form .form_buttons {
+    width: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px 0px 300px;
+  }
+  
+  .ticket_form .form_buttons button {
+    margin-left: 35px;
+    /* border: 1px solid black; */
+    padding: 10px;
+  }
+  
+  .ticket_form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .success{
+    height: 30px;
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: 5px 0px 0px 30%;
+  }
+  .submit_msg{
+    color: blue;
+    font-size: 20px;
+    /* margin: 0px 0px 0px 60px; */
+  }
+  
+  

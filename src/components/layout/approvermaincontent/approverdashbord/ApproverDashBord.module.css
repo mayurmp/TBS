@@ -1,0 +1,7 @@
+.dashboard {
+  display: flex;
+}
+
+.mainContent {
+  flex-grow: 1;
+}

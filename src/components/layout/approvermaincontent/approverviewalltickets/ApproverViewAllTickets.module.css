@@ -1,0 +1,289 @@
+.main_box {
+  width: 100vw;
+}
+.box {
+  height: 700px;
+
+  border-radius: 20px;
+  margin: 100px 0px 0px 30px;
+  background-color: rgb(232, 229, 229);
+}
+.box:hover {
+  box-shadow: 0 10px 50px rgba(191, 210, 224, 1);
+}
+.box_row_1 {
+  height: 60px;
+
+  position: sticky;
+  display: flex;
+  border-radius: 10px;
+  margin: 5px 10px 0px 10px;
+  box-shadow: 1px 1px 2px black;
+  background-color: azure;
+  align-items: center;
+}
+.ticket_id {
+  height: 40px;
+  width: 7%;
+
+  margin: 15px 0px 0px 10px;
+}
+.ticket_id_1 {
+  height: 40px;
+  width: 100%;
+}
+.ticket_id b {
+  color: black;
+}
+.ticket_id_txt p {
+  font-size: 18px;
+  color: rgb(74, 72, 72);
+}
+.ticket_id_1_txt {
+  height: 40px;
+  width: 44%;
+
+  margin: 10px 0px 0px 30px;
+}
+
+.category {
+  height: 40px;
+  width: 10%;
+
+  margin: 15px 0px 0px 20px;
+}
+.category_1 {
+  height: 40px;
+  width: 100%;
+}
+.category b {
+  color: black;
+  width: 84%;
+  margin: 0px 0px 0px 6px;
+}
+.category_1_txt p {
+  color: rgb(74, 72, 72);
+}
+.category_1_txt {
+  height: 40px;
+  width: 75%;
+
+  margin: -1px 0px 0px 15px;
+}
+
+.assignedto {
+  height: 40px;
+  width: 12%;
+
+  margin: 15px 0px 0px 20px;
+}
+.assignedto_1 {
+  height: 40px;
+  width: 100%;
+}
+.assignedto b {
+  color: black;
+  width: 84%;
+  margin: 0px 0px 0px 6px;
+}
+.assignedto_1_txt p {
+  color: rgb(74, 72, 72);
+}
+.assignedto_1_txt {
+  height: 40px;
+  width: 75%;
+
+  margin: -1px 0px 0px 15px;
+}
+
+.status {
+  height: 40px;
+  width: 9%;
+
+  margin: 15px 0px 0px 20px;
+}
+.status_1 {
+  height: 40px;
+  width: 100%;
+}
+.status b {
+  color: black;
+  width: 84%;
+  margin: 0px 0px 0px 6px;
+}
+.status_1_txt p {
+  color: rgb(74, 72, 72);
+}
+.status_1_txt {
+  height: 40px;
+  width: 75%;
+  margin: -1px 0px 0px 15px;
+}
+
+.priority {
+  height: 40px;
+  width: 7%;
+
+  margin: 15px 0px 0px 20px;
+}
+.priority_1 {
+  height: 40px;
+  width: 100%;
+}
+.priority b {
+  color: black;
+  width: 84%;
+  margin: 0px 0px 0px 6px;
+}
+.priority_1_txt p {
+  color: rgb(74, 72, 72);
+}
+.priority_1_txt {
+  height: 40px;
+  width: 75%;
+
+  margin: -1px 0px 0px 15px;
+}
+
+.subject {
+  height: 40px;
+  width: 18%;
+
+  margin: 15px 0px 0px 20px;
+}
+.subject_1 {
+  height: 40px;
+  width: 100%;
+}
+.subject b {
+  color: black;
+  width: 84%;
+  margin: 0px 0px 0px 30%;
+}
+.subject_1_txt p {
+  color: rgb(74, 72, 72);
+}
+.subject_1_txt {
+  height: 40px;
+  width: 75%;
+
+  margin: 0px 0px 0px 40px;
+}
+
+.discription {
+  height: 40px;
+  width: 15%;
+
+  margin: 15px 0px 0px 0px;
+}
+.discription_1 {
+  height: 40px;
+  width: 100%;
+}
+.discription b {
+  color: black;
+  width: 84%;
+  margin: 0px 0px 0px 20%;
+}
+.discription_1_txt p {
+  color: rgb(74, 72, 72);
+}
+.discription_1_txt {
+  height: 40px;
+  width: 100%;
+}
+
+.creation_date {
+  height: 40px;
+  width: 15%;
+
+  margin: 15px 0px 0px 20px;
+}
+.creation_date_1 {
+  height: 40px;
+  width: 84%;
+}
+.creation_date b {
+  color: black;
+  width: 100%;
+  margin: 0px 0px 0px 6px;
+}
+.creation_date_1_txt p {
+  color: rgb(74, 72, 72);
+}
+.creation_date_1_txt {
+  height: 40px;
+  width: 100%;
+}
+
+.button {
+  height: 40px;
+  width: 15%;
+
+  margin: 15px 0px 0px 30px;
+}
+.button_1 {
+  height: 40px;
+  width: 84%;
+}
+.button b {
+  color: black;
+  width: 100%;
+  margin: 0px 0px 0px 6px;
+}
+.button_1_txt p {
+  color: rgb(74, 72, 72);
+}
+.button_1_txt {
+  height: 40px;
+  width: 92%;
+
+  margin: -5px 0px 0px 15px;
+}
+
+/* 2 nd box */
+.tabpanel_box_2 {
+  height: 625px;
+
+  margin: 0px 0px 0px 150px;
+  box-shadow: 0 10px 50px rgba(191, 210, 224, 1);
+  background-color: rgba(106, 104, 104, 0.28);
+}
+.box_2_row_1 {
+  height: 60px;
+
+  display: flex;
+  border-radius: 10px;
+  margin: 5px 10px 0px 10px;
+  box-shadow: 1px 1px 2px black;
+  background-color: rgb(232, 229, 229);
+}
+.box_2_row_1 {
+  background-color: azure;
+}
+
+.tabpanel_box {
+  height: 600px;
+
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #131118;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,10 @@
+.pagenotfound {
+  background-color: #b3d5f9;
+}
+.pagediv {
+  height: 100vh;
+  text-align: center;
+}
+.error {
+  font-size: 40px;
+}

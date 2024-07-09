@@ -1,0 +1,46 @@
+.modaldiv {
+  margin-top: 200px;
+  width: 100vw !important;
+}
+.modalbody {
+  width: 100vw !important;
+}
+
+.filebutton {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+.filebutton:focus {
+  outline: none;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.selectapprovalname {
+  margin-top: 38px;
+}
+.approvalname {
+  font-size: 15px !important;
+  margin-top: 10px;
+}
+
+.addcircle:hover {
+  color: rgb(62, 185, 223);
+}
+.error {
+  font-size: 1rem !important;
+}
+.inputdiv {
+  min-height: 100px !important;
+}
+.priority {
+  margin-left: 22px;
+}
+.dropdown {
+  border: 0;
+  padding: 0;
+}

@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+}
+.main_box{
+    height: 600px;
+    width: 100vw;
+    /* border: 1px solid black; */
+}
+.box{
+    height: 600px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    margin: 100px 0px 300px 30px;
+    background-color: rgb(232, 229, 229);
+}
+.box:hover{
+     box-shadow: 0 10px 50px rgba(191, 210, 224, 1);
+}
+.tabpanel_box{
+    height: 500px;
+    /* border: 1px solid black; */
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  } 
+  
+  /* Track */
+   ::-webkit-scrollbar-track {
+    background: #131118;
+  } 
+  
+  /* Handle */
+   ::-webkit-scrollbar-thumb {
+    background: #888;
+  } 
+  
+  /* Handle on hover */
+   ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.box_row_1{
+    height: 60px;
+    /* border: 1px solid red ;  */
+    /* position: fixed; */
+    display: flex;  
+    border-radius: 10px;
+    margin: 5px 10px 0px 10px;
+    box-shadow: 1px 1px 2px black;
+    background-color: white;
+   align-items: center;
+    
+}
+.srno{
+    height: 40px;
+    width: 7%;
+    /* border: 1px solid black; */
+    margin: 15px 0px 0px 5px;
+}
+.srno_1{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin: 5px 0px 0px 10px; */
+}
+.srno b{
+    /* font-size: 22px; */
+    color: black;
+}
+.srno_1_txt p{
+    /* font-size: 18px; */
+    color: rgb(74, 72, 72);
+}
+.srno_1_txt{
+    height: 40px;
+    width: 44%;
+    /* border: 1px solid black; */
+    margin: 10px 0px 0px 25%;
+}
+
+
+.category{
+    height: 40px;
+    width: 10%;
+    /* border: 1px solid black; */
+    margin: 15px 0px 0px 10px;
+}
+.category_1{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin: 5px 0px 0px 10px; */
+}
+.category b{
+    /* font-size: 22px; */
+    /* border: 1px solid black; */
+    color: black;
+    width: 84%;
+    margin: 0px 0px 0px 6px;
+}
+.category_1_txt p{
+    /* font-size: 18px; */
+    color: rgb(74, 72, 72);
+}
+.category_1_txt{
+    height: 40px;
+    width: 75%;
+    /* border: 1px solid black; */
+    margin: -1px 0px 0px 15px;
+}
+
+.assignedto{
+    height: 40px;
+    width: 10%;
+    /* border: 1px solid black; */
+    margin: 15px 0px 0px 5px;
+}
+.assignedto_1{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin: 5px 0px 0px 10px; */
+}
+.assignedto b{
+    /* font-size: 22px; */
+    /* border: 1px solid black; */
+    color: black;
+    width: 84%;
+    margin: 0px 0px 0px 6px;
+}
+.assignedto_1_txt p{
+    /* font-size: 18px; */
+    color: rgb(74, 72, 72);
+}
+.assignedto_1_txt{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: -1px 0px 0px 15px;
+}
+
+.status{
+    height: 40px;
+    width: 9%;
+    /* border: 1px solid black; */
+    margin: 15px 0px 0px 10px;
+}
+.status_1{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin: 5px 0px 0px 10px; */
+}
+.status b{
+    /* font-size: 22px; */
+    /* border: 1px solid black; */
+    color: black;
+    width: 84%;
+    margin: 0px 0px 0px 6px;
+}
+.status_1_txt p{
+    /* font-size: 18px; */
+    color: rgb(74, 72, 72);
+}
+.status_1_txt{
+    height: 40px;
+    width: 75%;
+    /* border: 1px solid black; */
+    margin: -1px 0px 0px 15px;
+}
+
+.priority{
+    height: 40px;
+    width: 7%;
+    /* border: 1px solid black; */
+    margin: 15px 0px 0px 0px;
+}
+.priority_1{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin: 5px 0px 0px 10px; */
+}
+.priority b{
+    /* font-size: 22px; */
+    /* border: 1px solid black; */
+    color: black;
+    width: 84%;
+    margin: 0px 0px 0px 6px;
+}
+.priority_1_txt p{
+    /* font-size: 18px; */
+    color: rgb(74, 72, 72);
+}
+.priority_1_txt{
+    height: 40px;
+    width: 75%;
+    /* border: 1px solid black; */
+    margin: -1px 0px 0px 15px;
+}
+
+
+.subject{
+    height: 40px;
+    width: 15%;
+    /* border: 1px solid black; */
+    margin: 15px 0px 0px 10px;
+}
+.subject_1{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin: 5px 0px 0px 10px; */
+}
+.subject b{
+    /* font-size: 22px; */
+    /* border: 1px solid black; */
+    color: black;
+    width: 84%;
+    margin: 0px 0px 0px 20%;
+}
+.subject_1_txt p{
+    /* font-size: 18px; */
+    color: rgb(74, 72, 72);
+}
+.subject_1_txt{
+    height: 40px;
+    width: 75%;
+    /* border: 1px solid black; */
+    margin: -1px 0px 0px 15px;
+}
+
+.discription{
+    height: 40px;
+    width: 15%;
+    /* border: 1px solid black; */
+    margin: 15px 0px 0px 10px;
+}
+.discription_1{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin: 5px 0px 0px 10px; */
+}
+.discription b{
+    /* font-size: 22px; */
+    /* border: 1px solid black; */
+    color: black;
+    width: 84%;
+    margin: 0px 0px 0px 6px;
+}
+.discription_1_txt p{
+    /* font-size: 18px; */
+    color: rgb(74, 72, 72);
+}
+.discription_1_txt{
+    height: 40px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: -1px 0px 0px 15px;
+}
+
+.appliedondate{
+    height: 40px;
+    width: 15%;
+    /* border: 1px solid black; */
+    margin: 15px 0px 0px 0px;
+}
+.appliedondate_1{
+    height: 40px;
+    width: 84%;
+    /* border: 1px solid black; */
+    /* margin: 5px 0px 0px 10px; */
+}
+.appliedondate b{
+    /* font-size: 22px; */
+    /* border: 1px solid black; */
+    color: black;
+    width: 100%;
+    margin: 0px 0px 0px 6px;
+}
+.appliedondate_1_txt p{
+    /* font-size: 18px; */
+    color: rgb(74, 72, 72);
+}
+.appliedondate_1_txt{
+    height: 40px;
+    width: 92%;
+    /* border: 1px solid black; */
+    margin: -1px 0px 0px 15px;
+}
+
+.button{
+    height: 30px;
+    width: 15%;
+    /* border: 1px solid black; */
+    margin: 10px 0px 0px 10px;
+}
+.button_1{
+    height: 30px;
+    width: 84%;
+    /* border: 1px solid black; */
+    margin: 5px 0px 0px 10px;
+}
+.button b{
+    /* font-size: 22px; */
+    /* border: 1px solid black; */
+    color: black;
+    width: 100%;
+    margin: 0px 0px 0px 6px;
+}
+.button_1_txt p{
+    /* font-size: 20px; */
+    color: rgb(74, 72, 72);
+}
+.button_1_txt{
+    height: 40px;
+    width: 92%;
+    /* border: 1px solid black; */
+    margin: 0px 0px 0px 15px;
+}
+.box_2_row_1{
+    height: 60px;
+    /* border: 1px solid red ;  */
+    display: flex;  
+    border-radius: 10px;
+    margin: 5px 10px 0px 10px;
+    box-shadow: 1px 1px 2px black;
+    background-color: white
+}
+#row_2{
+    height: 80px;
+}
+
+p {
+    /* font-weight: 800; */
+    font-size: 15px;
+}
+
+

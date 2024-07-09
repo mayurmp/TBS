@@ -1,0 +1,109 @@
+.helpdesk {
+  margin-top: 1.4rem;
+}
+.icon {
+  justify-content: end;
+}
+p {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+main .insights .activebutton {
+  background: rgb(21, 218, 236);
+  color: white;
+}
+
+main .insights .closebutton {
+  background: rgb(21, 218, 236);
+  color: white;
+}
+
+.maincontent {
+  margin-top: 55px !important;
+  width: 100%;
+  height: 60vh;
+  border: 1px solid rgb(126, 187, 210);
+  background: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  text-align: center;
+
+  box-shadow: 0 2rem 3rem rgba(191, 210, 224, 1);
+  transition: all 300ms ease;
+}
+
+.maincontent:hover {
+  box-shadow: none;
+}
+
+.right {
+  position: fixed;
+  top: 99px;
+  right: 50px;
+  align-items: center;
+  padding: 0 0.8rem;
+  height: 4.6rem;
+
+  z-index: 2;
+}
+.right .menubtn {
+  display: inline-block;
+  background: transparent;
+  cursor: pointer;
+  color: var(--color-dark);
+  position: absolute;
+  left: 1rem;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+  .newrequestbutton {
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  aside .close {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .middlediv {
+    margin-top: 3rem;
+    padding: 0 1rem;
+  }
+
+  .right {
+    position: absolute;
+    top: 15px;
+    right: 60px;
+  }
+
+  .right .top #menu-btn {
+    display: inline-block;
+    background: transparent;
+    cursor: pointer;
+    color: var(--color-dark);
+    position: absolute;
+    left: 1rem;
+  }
+  .right .top #menu-btn span {
+    font-size: 2rem;
+  }
+  .newrequestbutton {
+    position: fixed;
+    left: 560px;
+    padding: 8px !important;
+    margin-top: 108px;
+    width: 70px;
+  }
+  .block {
+    display: block !important;
+  }
+
+  .none {
+    display: none !important;
+  }
+}
